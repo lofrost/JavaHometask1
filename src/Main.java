@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-
+//https://github.com/lofrost/JavaHometask1
 public class Main {
     public static void main(String[] args){
         //3
