@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        // 3
-        /*
+        //3
+
         Scanner sc = new Scanner(System.in);
         int i;
         int summa = 0;
@@ -39,12 +39,11 @@ public class Main {
         } while(i < mas.length);
         System.out.println("Сумма: " + summa + "\nМаксимальное число: "+ max + "\nМинимальное число: " + min);
 
-         */
 
         // 5
-        System.out.println("");
+
         for (String str: args){
-            System.out.println("argument: " + str);
+            System.out.print("\nargument: " + str);
         }
         // 6
         float j;
