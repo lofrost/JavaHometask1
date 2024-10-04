@@ -62,7 +62,7 @@ public class Main {
         for (j=1; j<=num; j++){
             int otv *= j;
         }
-        return num;
+        return otv;
 
     }
 }
