@@ -59,9 +59,9 @@ public class Main {
         if (num == 0){
             return 1;
         }
-        otv = 1;
+        int otv = 1;
         for (j=1; j<=num; j++){
-            otv *= j;
+            int otv *= j;
         }
         return num;
 
