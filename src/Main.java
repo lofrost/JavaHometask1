@@ -3,8 +3,13 @@ import java.util.Scanner;
 //https://github.com/lofrost/JavaHometask1
 public class Main {
     public static void main(String[] args){
+        
+        // 5
+        for (String str: args){
+            System.out.print("\nargument: " + str);
+        }
+        
         //3
-
         Scanner sc = new Scanner(System.in);
         int i;
         int summa = 0;
@@ -39,12 +44,6 @@ public class Main {
         } while(i < mas.length);
         System.out.println("Сумма: " + summa + "\nМаксимальное число: "+ max + "\nМинимальное число: " + min);
 
-
-        // 5
-
-        for (String str: args){
-            System.out.print("\nargument: " + str);
-        }
         // 6
         float j;
         for (j=1; j <= 10; j++){
